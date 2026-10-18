@@ -1,0 +1,11 @@
+IMPORTANTE: ESTA REPARACION SE EXTRAE DIRECTAMENTE DENTRO DE LA CARPETA DEL PROYECTO FLUTTER.
+
+Ruta de destino:
+D:\TradePilotMT5\TradePilotMT5_Package\frontend\flutter_app
+
+1. Descarga el ZIP.
+2. Abre el ZIP y extrae sus dos archivos (main.dart e INSTALAR_CORRECCION.bat) directamente en esa carpeta, junto a pubspec.yaml.
+3. Ejecuta INSTALAR_CORRECCION.bat con doble clic.
+4. El script copia main.dart a lib\main.dart y ejecuta flutter clean, flutter pub get y flutter run -d windows.
+
+Si el script dice que no encuentra pubspec.yaml, los archivos no se han extraido en la carpeta correcta.
